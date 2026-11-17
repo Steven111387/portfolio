@@ -114,6 +114,13 @@
 #contact #copy-status{color:#c9d3e2}
 #contact a:focus-visible,#contact button:focus-visible{outline-color:#fff}
 
+/* Light-blue page theme: every section sits on a pale blue, alternating two shades. */
+:root{--bg:#e8f0fb;--line:#d5e0ef}
+.white,.stats,footer{background:#f2f6fd}
+header{background:#eef4fcee}
+.hero{background:radial-gradient(ellipse at 80% 10%,#d3e1f5,transparent 65%)}
+.highlight{background:#e8f0fb}
+
 /* Video works: play badge on cards and an embedded player in the detail popup. */
 .project figure .play-badge{position:absolute;top:auto;left:14px;bottom:14px;z-index:1;display:inline-flex;align-items:center;gap:7px;padding:6px 12px 6px 7px;border-radius:30px;background:#152239d9;color:#fff;font-size:11px;font-weight:700;letter-spacing:.2px}
 .project figure .play-badge i{display:grid;place-items:center;width:20px;height:20px;border-radius:50%;background:#fff;color:#22324c;font-size:8px;font-style:normal;padding-left:2px}
