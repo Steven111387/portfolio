@@ -131,11 +131,8 @@ header{background:#eef4fcee}
 .highlight{background:#e8f0fb}
 
 /* Hero typing effect (typing.js). Characters stay in the layout but hidden until typed. */
-.typing-pending [data-type]{visibility:hidden}
-.typing-ready [data-type] .ch{visibility:hidden}
-.typing-ready [data-type] .ch.on{visibility:visible}
-.type-cursor{display:inline-block;width:3px;height:1em;margin-left:3px;vertical-align:-.12em;background:var(--dark);border-radius:2px;animation:type-blink 1s steps(1) infinite}
-.intro .type-cursor{width:2px;margin-left:2px}
+.typing-pending [data-cycle]{visibility:hidden}
+.type-cursor{display:inline-block;width:3px;height:1em;margin-left:4px;vertical-align:-.12em;background:var(--dark);border-radius:2px;animation:type-blink 1s steps(1) infinite}
 @keyframes type-blink{50%{opacity:0}}
 
 /* Target marked after a highlight-card jump. */
