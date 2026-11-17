@@ -81,6 +81,9 @@
 .hero-visual .visual-label{position:absolute;top:34px;right:-18px;margin:0;padding:10px 14px;font-size:10px;font-weight:700;box-shadow:0 10px 24px #24304233;z-index:2}
 @media(max-width:960px){.hero-visual{width:min(100%,320px)}}
 @media(max-width:700px){.hero-visual .visual-label{right:-8px}}
+/* Slightly smaller portrait. */
+.hero-visual{width:min(100%,280px)}
+@media(max-width:960px){.hero-visual{width:min(100%,280px)}}
 
 /* 2. Larger, heavier opening headline. */
 .hero h1{font-size:clamp(36px,4.4vw,54px);font-weight:800;letter-spacing:-2.4px;line-height:1.3}
