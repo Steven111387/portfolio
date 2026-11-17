@@ -9,7 +9,7 @@
   // Each phrase is a list of parts; `em` parts use the accent colour, `br` breaks the line.
   const phrases = [
     [{ t: '장면의 흐름을 잇고,' }, { br: true }, { t: '이야기의 감정을 전합니다.', em: true }],
-    [{ t: '안녕하세요.' }, { br: true }, { t: '몰입감 있는 편집과 탄탄한 서사로 이야기를 완성하는 영상 편집자 ' }, { t: '김성수', em: true }, { t: '입니다.' }]
+    [{ t: '안녕하세요, 몰입을 만드는' }, { br: true }, { t: '영상 편집자 ' }, { t: '김성수', em: true }, { t: '입니다.' }]
   ];
   const TYPE = 85, ERASE = 30, HOLD = 2200, GAP = 450;   // ms
 
